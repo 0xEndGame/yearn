@@ -61,11 +61,11 @@ export const YearnContextApp = ({children}: {children: ReactElement}): ReactElem
 		const	endorsedVaults: {[key: number]: string[]} = {
 			1: [
 				toAddress('0xdA816459F1AB5631232FE5e97a05BBBb94970c95'), //yvDAI
-				toAddress('0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE'), //yvUSDC
-				toAddress('0x7Da96a3891Add058AdA2E826306D812C638D87a7'), //yvUSDT
-				toAddress('0xdb25cA703181E7484a155DD612b06f57E12Be5F0'), //yvYFI
-				toAddress('0xa258C4606Ca8206D8aA700cE2143D7db854D168c'), //yvETH
-				toAddress('0xA696a63cc78DfFa1a63E9E50587C197387FF6C7E')  //yvBTC
+			//	toAddress('0xa354F35829Ae975e850e23e9615b11Da1B3dC4DE'), //yvUSDC
+			//	toAddress('0x7Da96a3891Add058AdA2E826306D812C638D87a7'), //yvUSDT
+			//	toAddress('0xdb25cA703181E7484a155DD612b06f57E12Be5F0'), //yvYFI
+			//	toAddress('0xa258C4606Ca8206D8aA700cE2143D7db854D168c'), //yvETH
+			//	toAddress('0xA696a63cc78DfFa1a63E9E50587C197387FF6C7E')  //yvBTC
 			],
 			250 : [
 				toAddress('0x0DEC85e74A92c52b7F708c4B10207D9560CEFaf0'), // yvWFTM
